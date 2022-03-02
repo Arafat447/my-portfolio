@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to bottom right, #efa2b4,#aef1ee);
+    min-height: 100vh;
+    font-size: 16px;
+    color:#18293c;
+    overflow-x: hidden;
+}
+body::before{
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #cddc39;
+    z-index: -1;
+    opacity: 0.12;
+    
+}
+.main {
+    background-color: rgba(255,255,255, 0.25);
+    border: 1px solid rgba(255,255,255, 0.40);
+    min-height: 80vh;
+    border-radius: 30px;
+    margin: 5vh 15px;
+}
+.main img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.home-text {
+    /* background-color: blue; */
+}
+.home-image {
+    /* background-color: red; */
+}
+.home-image, 
+.home-text {
+    width: 50%;
+    padding: 15px;
+}
